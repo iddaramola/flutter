@@ -1,0 +1,22 @@
+{
+  "name": "flutter",
+  "version": "1.0.0",
+  "description": "A rule-validation API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iddaramola/flutter.git"
+  },
+  "author": "Idowu Daramola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iddaramola/flutter/issues"
+  },
+  "homepage": "https://github.com/iddaramola/flutter#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
