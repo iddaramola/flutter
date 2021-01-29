@@ -16,12 +16,10 @@ if (port == null || port == "") {
 app.use(express.json()); // for parsing application/json
 
 app.get('/', (req, res) => {
-    
-
-  res.json({
-    "message": "My Rule-Validation API",
-    "status": "success",
-    "data": {
+    res.json({
+      "message": "My Rule-Validation API",
+     "status": "success",
+     "data": {
       "name": "Idowu Olayinka Daramola",
       "github": "@iddaramola",
       "email": "idowu.daramola@gmail.com",
@@ -31,7 +29,7 @@ app.get('/', (req, res) => {
   });
 });
 
-app.get('/validate-rule', (req, res) => {
+app.post('/validate-rule', (req, res) => {
     res.send('validate-endpoint');
 
 });
